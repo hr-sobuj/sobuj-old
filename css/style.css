@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#head {
+    height: 700px;
+    background-image: url(../img/background.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#head .headers .img-overlay {
+    margin-top: 230px;
+}
+
+#header {
+
+    background-image: url(../img/279547.jpg);
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/*.img-over{
+    background-color: black;
+    opacity: .7;
+    height: 600px;
+    width: 600px;
+}*/
+.main{
+/*    background-color: black;
+    opacity: .7;
+    height: 100%;
+    width: 100%;
+       margin-top: 200px;
+    margin-bottom: 200px;*/
+}
+/*#header .main{
+    background-color: #100e17;
+    height: 600px;
+    opacity: .7;
+}*/
+
+#navBar {
+    color: white;
+     !important background-color: transparent;
+}
+
+#navBar a:hover {
+    color: white;
+}
+
+#hireMe {
+    margin-top: 200px;
+    margin-bottom: 200px;
+/* height: 600px;*/
+
+}
+
+#hireMe .btn {
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 150px;
+}
+
+.hire-img {
+    border: 10px solid gray;
+    border-radius: 100%;
+    height: 297px;
+    width: 300px;
+
+}
+
+.logo-text {
+    font-size: 33px;
+    font-weight: 400;
+    padding: 0px;
+    margin-right: 0px;
+    font-family: 'Parisienne', cursive;
+}
+
+.menu-icon {
+    font-size: 28px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+
+}
+
+.front-style {
+    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Permanent Marker', cursive;*/
+    /*font-family: 'Kaushan Script', cursive;*/
+    /*font-family: 'Orbitron', sans-serif;*/
+
+}
+
+#about {
+
+    background-color: #f1f1f1;
+}
+
+.about-img {
+    /*margin-top: 10px !important;
+    width: 75%;
+    display: inline-block;
+    margin-left: 30px;
+    border-bottom: 3px solid red;*/
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 19px 70px 0 rgba(0, 0, 0, .12);
+    height: 400px;
+    width: 470px;
+    border: 2px solid gray;
+    margin-top: 9px;
+    overflow: hidden;
+
+
+ /*   background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 35px 70px 0 rgba(0, 0, 0, .12);
+    padding: 0px 30px;
+    text-align: center;
+    height: 400px;
+    width: 470px;*/
+    /* margin-top: 30px;
+    margin-left: 100px;*/
+
+}
+
+.about-text {
+    overflow: hidden;
+}
+
+.fixed-top {
+    position: fixed;
+    top: -75px;
+    /*background: rgba(29, 26, 26, 0.9);*/
+    background: white;
+    transform: translateY(75px);
+    transition: transform 500ms ease, background 500ms ease !important;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: black;
+}
+
+.logo-black {
+    color: black;
+}
+
+.logo-white {
+    color: white;
+}
+
+.tool-icon {}
+
+.what-title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: gray;
+     !important
+}
+
+.active {
+    border-bottom: 3px solid #ffc107;
+     !important;
+    color: #ffc107;
+}
+
+#whatIdo .card {
+    /* border: 3px solid red;
+    border-radius: 10px;*/
+    /*background: #f1f1f1;*/
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 35px 70px 0 rgba(0, 0, 0, .12);
+    padding: 0px 30px;
+    text-align: center;
+}
+
+#whatIdo .card-img-top {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#portfolio {
+
+    background-color: #f1f1f1;
+}
+
+.price {
+    display: block;
+    font-size: 42px;
+    font-size: 4.2rem;
+    font-weight: 900;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+.package-title {
+    color: #222;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: "Merriweather";
+}
+
+.package-sub {
+    font-size: 19px;
+    font-family: serif;
+
+}
+
+.package-des {
+    font-size: 20px;
+    font-family: serif;
+}
+
+#service .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 35px 70px 0 rgba(0, 0, 0, .12);
+    padding: 50px 30px;
+    text-align: center;
+}
+
+#portfolio .card-body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#portfolio .card-title {
+    margin: 0px;
+    padding: 0px;
+}
+
+#portfolio .shadow {
+    position: relative;
+    transition: 1s;
+}
+
+#portfolio .shadow img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 35px 70px 0 rgba(0, 0, 0, .12);
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#portfolio .shadow .shadow-color {
+    position: absolute;
+    top: -0%;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    /*background: black;*/
+    opacity: .9;
+    display: block;
+    margin: 0 0 auto auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 35px 70px 0 rgba(0, 0, 0, .12);
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#portfolio .shadow .shadow-color .shadow_txt {
+    color: black;
+    text-align: center;
+    padding: 2px;
+    transform: translate(0%, 50%);
+
+}
+
+#portfolio .shadow:hover .shadow-color {
+    visibility: visible;
+    top: 0%;
+    transition: 1s;
+}
+
+#portfolio a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#contact .card {
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 35px 70px 0 rgba(0, 0, 0, .12);
+    padding: 0px 0px;
+    text-align: center;
+}
+
+#contact {
+    background-color: #f1f1f1;
+}
+
+#contact a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
